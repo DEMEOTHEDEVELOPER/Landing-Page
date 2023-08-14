@@ -5,6 +5,9 @@
 body {
   padding: 0;
   margin: 0;
+}
+
+.body {
   display: flex;
   flex-direction: column;
 }
@@ -12,6 +15,9 @@ body {
 .footer {
   background-color: #1f2937;
   padding: 4px; 
+  display: flex;
+  justify-content: center;
+  justify-self: flex-end;
 }
 
 .top {
@@ -51,6 +57,7 @@ a {
   color: white;
   text-align: center;
   align-items: end;
+  margin-bottom: 5px;
 }
 
 .top-content {
@@ -79,5 +86,61 @@ a {
 .subtext,
 .foot-text{
   color: #e5e7eb;
-  font-size: small;
+  font-size: x-small;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75px;
+}
+
+.upper-middle {
+  background-color: #f9faf8;
+}
+
+.upper-middle-title {
+  text-align: center;
+  color: #1f2937;
+}
+
+.upper-middle-content {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.info-text {
+  text-align: center;
+  font-size: x-small;
+  color: #1f2937;
+}
+
+.box {
+  height: 75px;
+  width: 75px;
+  border: 2px solid #3882f6;
+  border-radius: 8px;
+}
+
+.quote-text {
+  font-style: italic;
+  font-weight: 200;
+  font-size: xx-large;
+  margin: 10px 20%;
+}
+
+.quote-author {
+  font-weight: 700;
+  color: #1f2937;
+  font-size: large;
+  align-self: flex-end;
+  margin: 0 25% 16px 0;
+}
+
+.lower-middle {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
 }
