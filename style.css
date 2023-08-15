@@ -144,3 +144,48 @@ a {
   flex-direction: column;
   background-color: #e5e7eb;
 }
+
+.bottom {
+  background-color: #f9faf8;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-content {
+  background-color: #3882f6;
+  height: 100px;
+  width: 40%;
+  display: flex;
+  gap: 16px;
+  align-self: center;
+  margin: 50px;
+  padding: 16px;
+}
+
+.button2 {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.sign-up2 {
+  border: 3px solid #f9faf8;
+  border-radius: 8px;
+  color: #f9faf8;
+  background-color: #3882f6;
+  align-self: center;
+  padding: 4px 8px;
+}
+.bottom-header {
+  color: #f9faf8;
+  padding: 0;
+  margin: 0;
+}
+
+.bottom-info {
+  padding: 0 50px;
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
